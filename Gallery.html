@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Album</title>
+    <link rel="stylesheet" href="Gallery.css">
+</head>
+<body>
+    <div class="album-container">
+        <div class="image-viewer">
+            <img id="current-image" src="" alt="Album Image">
+        </div>
+        <div class="film-strip" id="filmStrip"></div>
+        <div class="controls">
+            <button style="border-radius: 40px;" onclick="firstImage()">&#9664;&#9664;</button>
+            <button onclick="previousImage()">&#9664;</button>
+            <button onclick="nextImage()">&#9654;</button>
+            <button onclick="lastImage()">&#9654;&#9654;</button>
+            <button onclick="shuffleImages()">&#10227;</button>
+        </div>
+        
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
